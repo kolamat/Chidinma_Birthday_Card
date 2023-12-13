@@ -40,7 +40,7 @@ const typed = new Typed("#pray", {
 
 let bdg = document.getElementById("image");
 
-function Gtoggle_bdg() {
+function toggle_bdg() {
   let img = document.createElement("img");
   img.src = "Screenshot 2023-12-13 232218.png";
   document.getElementById("body").appendChild(img);
