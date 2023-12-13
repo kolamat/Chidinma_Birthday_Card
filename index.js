@@ -37,3 +37,13 @@ const typed = new Typed("#pray", {
   backDelay: 2000,
   loop: true,
 });
+
+let res = document.getElementById("image");
+
+function GFG_Fun() {
+  let img = document.createElement("img");
+  img.src =
+    "https://media.geeksforgeeks.org/wp-content/uploads/20190529122828/bs21.png";
+  document.getElementById("body").appendChild(img);
+  res.innerHTML = "Image Element Added.";
+}
