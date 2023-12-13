@@ -22,7 +22,7 @@
 
 const typed = new Typed("#pray", {
   strings: [
-    "To You my Love",
+    "My Love",
     "Happy_Birthday_To_You",
     "Long_Life_And_Prosperity",
     "More_Money_In_Your_Account",
@@ -30,7 +30,7 @@ const typed = new Typed("#pray", {
     "Lastly_Love_You",
   ],
   shuffle: false,
-  cursorChar: ".",
+  cursorChar: " &#x2022;",
   startDelay: 2000,
   typeSpeed: 130,
   backSpeed: 130,
