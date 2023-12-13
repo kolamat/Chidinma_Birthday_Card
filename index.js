@@ -40,10 +40,10 @@ const typed = new Typed("#pray", {
 
 let bdg = document.getElementById("image");
 
-function GFG_Fun() {
+function Gtoggle_bdg() {
   let img = document.createElement("img");
   img.src =
     "https://media.geeksforgeeks.org/wp-content/uploads/20190529122828/bs21.png";
-  document.getElementById("body").appendChild(img);
+  //   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Image Element Added.";
 }
