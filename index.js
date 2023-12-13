@@ -22,9 +22,7 @@
 
 const typed = new Typed("#pray", {
   strings: [
-    1,
     "My Love",
-    2,
     "Happy_Birthday_To_You",
     "Long_Life_And_Prosperity",
     "More_Money_In_Your_Account",
