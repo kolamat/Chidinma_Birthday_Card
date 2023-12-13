@@ -42,8 +42,7 @@ let bdg = document.getElementById("image");
 
 function Gtoggle_bdg() {
   let img = document.createElement("img");
-  img.src =
-    "https://media.geeksforgeeks.org/wp-content/uploads/20190529122828/bs21.png";
+  img.src = "";
   //   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Image Element Added.";
 }
