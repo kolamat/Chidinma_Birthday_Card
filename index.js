@@ -2,8 +2,8 @@
 
 // greetingElement.textContent = "Happy__Birthday_Chidinma_Love";
 
-const typed = new Typed(".multiple-text", {
-  strings: ["Frontend Engineer", "Gamer", "Blogger"],
+const typed = new Typed(".pray", {
+  strings: ["", "", ""],
   shuffle: true,
   cursorChar: ".",
   startDelay: 2000,
