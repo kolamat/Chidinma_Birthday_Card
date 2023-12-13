@@ -1,4 +1,4 @@
-var greetingElement = document.getElementById("greeting");
+// var greetingElement = document.getElementById("greeting");
 
 // greetingElement.textContent = "Happy__Birthday_Chidinma_Love";
 // "Happy_Birthday_To_You",
@@ -16,4 +16,6 @@ var greetingElement = document.getElementById("greeting");
 //   backDelay: 2000,
 //   loop: true,
 // });
-const typed = Typed("");
+// const typed = Typed("#pray", {
+//   String: ["developer"],
+// });
