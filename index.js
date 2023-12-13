@@ -16,5 +16,5 @@ const typed = new Typed(".pray", {
   typeSpeed: 130,
   backSpeed: 130,
   backDelay: 2000,
-  loop: false,
+  loop: true,
 });
