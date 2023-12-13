@@ -5,10 +5,10 @@ var greetingElement = document.getElementById("greeting");
 const typed = new Typed(".multiple-text", {
   strings: [
     "Happy_Birthday_To_You",
-    "Long_Life_And_Prosperity",
-    "More_Money_In_Your_Account",
-    "More_Cake_To_Burst_And_Eat",
-    "Lastly_Love_You",
+    // "Long_Life_And_Prosperity",
+    // "More_Money_In_Your_Account",
+    // "More_Cake_To_Burst_And_Eat",
+    // "Lastly_Love_You",
   ],
   shuffle: true,
   cursorChar: ".",
