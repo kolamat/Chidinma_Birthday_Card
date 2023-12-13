@@ -1,6 +1,6 @@
 var greetingElement = document.getElementById("greeting");
 
-// greetingElement.textContent = "Happy__Birthday_Chidinma_Love";
+greetingElement.textContent = "Happy__Birthday_Chidinma_Love";
 
 const typed = new Typed(".multiple-text", {
   strings: [
