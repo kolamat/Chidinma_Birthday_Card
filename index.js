@@ -2,7 +2,7 @@
 
 // greetingElement.textContent = "Happy__Birthday_Chidinma_Love";
 
-const typed = new typed(".pray", {
+const typed = new Typed(".pray", {
   strings: [
     "Happy_Birthday_To_You",
     "Long_Life_And_Prosperity",
