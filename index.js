@@ -1,8 +1,8 @@
-// var greetingElement = document.getElementById("greeting");
+var greetingElement = document.getElementById("greeting");
 
 // greetingElement.textContent = "Happy__Birthday_Chidinma_Love";
 
-const typed = new Typed(".pray", {
+const typed = new Typed(".multiple-text", {
   strings: [
     "Happy_Birthday_To_You",
     "Long_Life_And_Prosperity",
