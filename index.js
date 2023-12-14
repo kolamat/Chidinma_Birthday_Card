@@ -53,5 +53,5 @@ function toggle_bdg2() {
   kola.innerHTML = img.src = "kolade_head.jpg";
   kola.src = "kolade_head.jpg";
   document.getElementById("body1").appendChild(li);
-  bdg.innerHTML = "Look At yourseif Pretty Soul.";
+  //   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
