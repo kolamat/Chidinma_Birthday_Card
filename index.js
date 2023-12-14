@@ -48,11 +48,11 @@ function toggle_bdg() {
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
 
-let res = document.getElementById("result");
+let image1 = document.getElementById("image1");
 
 function toggle_bdg() {
   let img = new Image();
   img.src = "kolade_head.jpg";
   document.getElementById("body").appendChild(img);
-  res.innerHTML = "Image Element Added.";
+  image1.innerHTML = "Image Element Added.";
 }
