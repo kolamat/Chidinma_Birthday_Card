@@ -51,5 +51,6 @@ function toggle_bdg() {
 function toggle_bdg2() {
   let kola = document.createElement("img");
   kola.src = "kolade_head.jpg";
-  document.getElementById("body").appendChild(img);
+  document.getElementById("body1").appendChild(h1);
+  bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
