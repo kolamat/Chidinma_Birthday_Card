@@ -43,6 +43,7 @@ let bdg = document.getElementById("image");
 
 function toggle_bdg() {
   let img = document.createElement("img");
+  let kola = document.createElement("img");
   img.src = "Screenshot 2023-12-13 232218.png";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
