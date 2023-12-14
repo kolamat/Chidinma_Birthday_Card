@@ -36,8 +36,8 @@ p {
   line-height: 1.5;
   color: #555;
 }
-#image {
-  border: none;
+#pray {
+  border: 5px solid rgb(rgb(243, 145, 145), rgb(78, 225, 78), rgb(67, 67, 193));
 }
 
 /* button {
