@@ -41,7 +41,8 @@ p {
   color: rgb(255, 0, 170);
 }
 
-#image {
+img {
+  height: 30rem;
 }
 
 /* button {
