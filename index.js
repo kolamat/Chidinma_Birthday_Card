@@ -52,8 +52,7 @@ let res = document.getElementById("result");
 
 function toggle_bdg() {
   let img = new Image();
-  img.src =
-    "https://media.geeksforgeeks.org/wp-content/uploads/20190529122828/bs21.png";
+  img.src = "kolade_head.jpg";
   document.getElementById("body").appendChild(img);
   res.innerHTML = "Image Element Added.";
 }
