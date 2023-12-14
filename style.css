@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #e09e9e;
-  margin: 0;
+  margin: auto;
   padding: 30px;
   /* border: 10px solid black; */
   text-align: center;
@@ -43,6 +43,8 @@ p {
 
 img {
   height: 30rem;
+  text-align: center;
+  align-self: center;
 }
 
 button {
