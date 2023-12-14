@@ -49,7 +49,8 @@ function toggle_bdg() {
 }
 
 function toggle_bdg2() {
-  let kola = document.createElement("img");
+  let kola = document.createElement("li");
   kola.src = "kolade_head.jpg";
-.appendChild(document.createElement("li"));  bdg.innerHTML = "Look At yourseif Pretty Soul.";
+  document.getElementById("body1").appendChild(li);
+  bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
