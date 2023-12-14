@@ -50,7 +50,7 @@ function toggle_bdg() {
 
 let image1 = document.getElementById("image1");
 
-function toggle_bdg() {
+function toggle_bdg2() {
   let img = new Image();
   img.src = "kolade_head.jpg";
   document.getElementById("body").appendChild(img);
