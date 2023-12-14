@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dhurjati&family=Playfair+Display&display=swap");
+
 body {
   font-family: Arial, sans-serif;
   background-color: #e09e9e;
@@ -18,6 +21,7 @@ header {
 h1 {
   /* font-size: 32px; */
   margin: 0;
+  font-family: "Playfair Display", serif;
 }
 
 .multiple-text {
@@ -43,6 +47,8 @@ p {
 }
 
 #pray {
+  /* font-family: "Dhurjati", sans-serif; */
+  font-family: "Playfair Display", serif;
   color: rgb(255, 0, 170);
 }
 
