@@ -33,7 +33,7 @@ const typed = new Typed("#pray", {
   fadeOut: true,
   cursorChar: " &#x2022;",
   startDelay: 2000,
-  typeSpeed: 130,
+  typeSpeed: 50,
   //   backSpeed: 130,
   backDelay: 2000,
   loop: true,
