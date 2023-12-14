@@ -58,6 +58,7 @@ p {
 img {
   height: 30rem;
   margin: 0 auto 0 auto;
+  border-radius: 10px;
 }
 
 button {
