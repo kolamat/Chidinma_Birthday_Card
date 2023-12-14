@@ -50,7 +50,7 @@ function toggle_bdg() {
 
 function toggle_bdg2() {
   let kola = document.createElement("li");
-  kola.innerHTML = img.src;
+  kola.innerHTML = img.src = "kolade_head.jpg";
   kola.src = "kolade_head.jpg";
   document.getElementById("body1").appendChild(li);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
