@@ -5,6 +5,7 @@ body {
   padding: 30px;
   /* border: 10px solid black; */
   text-align: center;
+  overflow-x: hidden;
 }
 
 header {
