@@ -23,14 +23,14 @@
 const typed = new Typed("#pray", {
   strings: [
     "My Love",
-    "Happy_Birthday_To_You",
+    "Happy_Birthday",
     "Long_Life_And_Prosperity",
     "More_Money_In_Your_Account",
     "More_Cake_To_Burst_And_Eat",
     "Lastly_Love_You",
   ],
   shuffle: false,
-  //   fadeOut: true,
+  fadeOut: true,
   cursorChar: " &#x2022;",
   startDelay: 2000,
   typeSpeed: 50,
