@@ -48,10 +48,12 @@ function toggle_bdg() {
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
 
-function toggle_bdg2() {
-  let kola = document.getElementById("body1");
-  kola.innerHTML = " <img.src = 'kolade_head.jpg'>";
-  //   kola.src = "kolade_head.jpg";
-  //   document.getElementById("body1").appendChild(li);
-  //   bdg.innerHTML = "Look At yourseif Pretty Soul.";
+let res = document.getElementById("result");
+
+function toggle_bdg() {
+  let img = new Image();
+  img.src =
+    "https://media.geeksforgeeks.org/wp-content/uploads/20190529122828/bs21.png";
+  document.getElementById("body").appendChild(img);
+  res.innerHTML = "Image Element Added.";
 }
