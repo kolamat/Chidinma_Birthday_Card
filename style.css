@@ -37,7 +37,7 @@ p {
   color: #555;
 }
 #pray {
-  border: 5px solid rgb(rgb(243, 145, 145), rgb(78, 225, 78), rgb(67, 67, 193));
+  border: 5px solid rgb(red, green, blue);
 }
 
 /* button {
