@@ -41,6 +41,11 @@ p {
   color: rgb(255, 0, 170);
 }
 
+#image {
+  height: 20px;
+  width: 5px;
+}
+
 /* button {
   background-color: #f44336;
   color: #fff;
