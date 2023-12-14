@@ -30,7 +30,7 @@ const typed = new Typed("#pray", {
     "Lastly_Love_You",
   ],
   shuffle: false,
-  fadeOut: true,
+  //   fadeOut: true,
   cursorChar: " &#x2022;",
   startDelay: 2000,
   typeSpeed: 50,
