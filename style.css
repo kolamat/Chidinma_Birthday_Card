@@ -4,7 +4,7 @@ body {
   margin: auto;
   padding: 30px;
   /* border: 10px solid black; */
-  text-align: center;
+  /* text-align: center; */
   overflow-x: hidden;
 }
 
@@ -37,14 +37,18 @@ p {
   line-height: 1.5;
   color: #555;
 }
+
+#body {
+  text-align: center;
+}
+
 #pray {
   color: rgb(255, 0, 170);
 }
 
 img {
   height: 30rem;
-  text-align: center;
-  align-self: center;
+  margin: 0 auto 0 auto;
 }
 
 button {
