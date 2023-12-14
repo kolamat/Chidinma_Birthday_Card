@@ -24,6 +24,10 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-family: "Shadows Into Light", cursive;
+}
+
 .multiple-text {
   text-decoration: double;
 }
