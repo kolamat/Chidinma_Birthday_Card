@@ -45,7 +45,7 @@ img {
   height: 30rem;
 }
 
-/* button {
+button {
   background-color: #f44336;
   color: #fff;
   padding: 10px 20px;
@@ -54,7 +54,7 @@ img {
   cursor: pointer;
   font-size: 16px;
 }
-
+/* 
 footer {
   background-color: #333;
   color: #fff;
