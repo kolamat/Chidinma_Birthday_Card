@@ -59,7 +59,7 @@ function toggle_bdg() {
 
 let image2 = document.getElementById("image1");
 
-function toggle_bdg2() {
+function toggle_bdg3() {
   let img = new Image();
   img.src = "chi3.jpg";
   document.getElementById("body").appendChild(img);
@@ -68,7 +68,7 @@ function toggle_bdg2() {
 
 let image3 = document.getElementById("image1");
 
-function toggle_bdg2() {
+function toggle_bdg4() {
   let img = new Image();
   img.src = "chi4.jpg";
   document.getElementById("body").appendChild(img);
@@ -77,7 +77,7 @@ function toggle_bdg2() {
 
 let image4 = document.getElementById("image1");
 
-function toggle_bdg2() {
+function toggle_bdg5() {
   let img = new Image();
   img.src = "chi5.jpg";
   document.getElementById("body").appendChild(img);
