@@ -77,6 +77,7 @@ button {
   cursor: pointer;
   font-size: 16px;
 }
+
 button:hover {
   box-shadow: 0 0 1rem #eb5d53;
 }
