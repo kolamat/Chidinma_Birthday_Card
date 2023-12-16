@@ -61,7 +61,7 @@ let image2 = document.getElementById("image1");
 
 function toggle_bdg3() {
   let img = new Image();
-  img.src = "chi3.jpg";
+  img.src = "chi3.jpg'";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
