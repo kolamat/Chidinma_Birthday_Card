@@ -81,3 +81,11 @@ button {
 button:hover {
   box-shadow: 0 0 1rem #eb5d53;
 }
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 10px;
+  margin: auto;
+}
