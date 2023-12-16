@@ -87,5 +87,5 @@ button:hover {
   flex-wrap: wrap;
   text-align: center;
   gap: 10px;
-  margin: auto;
+  margin: 0 20px 5px 20px;
 }
