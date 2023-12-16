@@ -23,7 +23,7 @@ h2 {
 #multiple {
   font-family: "Dhurjati", sans-serif;
   word-wrap: break-word;
-  text-decoration: double;
+  text-decoration: line-through;
   color: rgb(255, 0, 170);
 }
 
