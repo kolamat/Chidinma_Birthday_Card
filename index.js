@@ -20,7 +20,7 @@
 //   String: ["developer"],
 // });
 
-const typed = new Typed("#pray", {
+const typed = new Typed("#multiple", {
   strings: [
     "Chidinma My Love",
     "Happy_Birthday",
