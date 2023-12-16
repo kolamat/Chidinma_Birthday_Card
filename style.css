@@ -21,7 +21,9 @@ h2 {
 }
 
 .multiple-text {
+  font-family: "Dhurjati", sans-serif;
   text-decoration: double;
+  color: rgb(255, 0, 170);
 }
 
 p {
@@ -41,8 +43,6 @@ p {
 }
 
 #pray {
-  font-family: "Dhurjati", sans-serif;
-  color: rgb(255, 0, 170);
 }
 
 img {
