@@ -9,6 +9,8 @@ body {
 }
 
 .ballon {
+  display: flex;
+  justify-content: space-between;
   background-color: #3b0c08;
   text-align: center;
 }
