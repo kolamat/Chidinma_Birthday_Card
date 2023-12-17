@@ -44,9 +44,7 @@ p {
 img {
   width: 50%;
   height: 50%;
-  margin: 0 auto 0 auto;
   border-radius: 10px;
-  gap: 10px;
   border: 3px solid black;
   margin: 3px 5px 3px 5px;
 }
