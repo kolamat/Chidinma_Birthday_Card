@@ -13,7 +13,7 @@ const typed = new Typed("#multiple", {
   typeSpeed: 50,
   backSpeed: 110,
   backDelay: 2000,
-  loop: true,
+  loop: false,
 });
 
 let bdg = document.getElementById("image");
