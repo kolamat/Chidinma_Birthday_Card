@@ -12,7 +12,7 @@ const typed = new Typed("#multiple", {
   cursorChar: "&#x2022;",
   startDelay: 2000,
   typeSpeed: 50,
-  backSpeed: 130,
+  backSpeed: 110,
   backDelay: 2000,
   loop: true,
 });
