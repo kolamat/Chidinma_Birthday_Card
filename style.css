@@ -94,4 +94,23 @@ button:hover {
     font-weight: bold;
     color: rgb(255, 0, 170);
   }
+
+  button {
+    background-color: #3b0c08;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 16px 8px 16px 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.8s ease;
+  }
+
+  button:hover {
+    background: rgb(222, 184, 135);
+    color: rgb(85, 82, 76);
+    transition: 0.6s ease;
+    box-shadow: 0 0 1rem #eb5d53;
+    border-radius: 8px 16px 8px 16px;
+  }
 }
