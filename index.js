@@ -48,15 +48,6 @@ function toggle_bdg() {
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
 
-// let image1 = document.getElementById("image1");
-
-// function toggle_bdg2() {
-//   let img = new Image();
-//   img.src = "kolade_head.jpg";
-//   document.getElementById("body").appendChild(img);
-//   bdg.innerHTML = "Look At yourseif Pretty Soul.";
-// }
-
 let image2 = document.getElementById("image1");
 
 function toggle_bdg3() {
