@@ -8,7 +8,6 @@ const typed = new Typed("#multiple", {
     "Lastly_Love_You",
   ],
   shuffle: false,
-  //   fadeOut: true,
   cursorChar: "&#x2022;",
   startDelay: 2000,
   typeSpeed: 50,
