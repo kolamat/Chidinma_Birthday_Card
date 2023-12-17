@@ -5,16 +5,11 @@
 body {
   background-image: url("27th-birthday-celebration.jpg");
   object-fit: fill;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   margin: auto;
   padding: 0;
   overflow-x: hidden;
 }
-
-/* .container {
-  background-image: url("27th-birthday-celebration.jpg");
-  object-fit: cover;
-} */
 
 h1 {
   font-family: "Pacifico", cursive;
