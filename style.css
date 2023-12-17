@@ -3,11 +3,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Dhurjati&family=Playfair+Display&display=swap");
 
 body {
-  background: rgb(224, 214, 14);
+  background-image: url("27th-birthday-celebration.jpg");
+  object-fit: fill;
+  background-repeat: no-repeat;
   margin: auto;
   padding: 0;
   overflow-x: hidden;
 }
+
+/* .container {
+  background-image: url("27th-birthday-celebration.jpg");
+  object-fit: cover;
+} */
 
 h1 {
   font-family: "Pacifico", cursive;
