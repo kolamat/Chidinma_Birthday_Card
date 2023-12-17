@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dhurjati&family=Playfair+Display&display=swap");
 
 body {
-  background: rgb(224, 214, 14);
+  background-image: url("paper.gif");
   margin: auto;
   padding: 0;
   overflow-x: hidden;
