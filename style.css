@@ -8,15 +8,18 @@ body {
   overflow-x: hidden;
 }
 
-div {
+.ballon {
+  background-color: #3b0c08;
   text-align: center;
 }
 
 .ballon img {
+  height: 180px;
+  width: 180px;
   border: none;
   text-align: center;
   margin: 0;
-  border-radius: 18px 10px 18px 10px;
+  border-radius: 25px 15px 25px 15px;
 }
 
 h1 {
