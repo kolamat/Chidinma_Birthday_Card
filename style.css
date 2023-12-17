@@ -4,8 +4,6 @@
 
 body {
   background-image: url("27th-birthday-celebration.jpg");
-  object-fit: fill;
-  /* background-repeat: no-repeat; */
   margin: auto;
   padding: 0;
   overflow-x: hidden;
