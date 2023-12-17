@@ -60,6 +60,9 @@ button {
 }
 
 button:hover {
+  background: rgb(222, 184, 135);
+  color: rgb(85, 82, 76);
+  transition: 0.5s ease-in-out;
   box-shadow: 0 0 1rem #eb5d53;
 }
 
