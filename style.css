@@ -23,6 +23,7 @@ h2 {
   font-family: "Dhurjati", sans-serif;
   font-size: xx-large;
   color: rgb(255, 0, 170);
+  font-weight: bold;
 }
 
 p {
@@ -34,6 +35,7 @@ p {
 .texts {
   text-align: center;
   padding: 0 40px 0 40px;
+  font-weight: bold;
   margin: 0 20px 5px 20px;
 }
 
@@ -62,7 +64,7 @@ button {
 button:hover {
   background: rgb(222, 184, 135);
   color: rgb(85, 82, 76);
-  transition: 0.5s ease-in-out;
+  transition: 0.5s ease;
   box-shadow: 0 0 1rem #eb5d53;
 }
 
@@ -87,6 +89,7 @@ button:hover {
   #multiple {
     font-family: "Dhurjati", sans-serif;
     font-size: x-large;
+    font-weight: bold;
     color: rgb(255, 0, 170);
   }
 }
