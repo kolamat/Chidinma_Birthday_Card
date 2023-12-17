@@ -8,6 +8,11 @@ body {
   overflow-x: hidden;
 }
 
+div {
+  /* width: 100%; */
+  text-align: center;
+}
+
 .ballon img {
   border: none;
   text-align: center;
