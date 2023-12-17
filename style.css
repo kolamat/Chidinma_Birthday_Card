@@ -13,6 +13,24 @@ body {
   justify-content: space-between;
   background-color: #3b0c08;
   text-align: center;
+  /* background-color: red; */
+  animation-name: nav;
+  animation-duration: 4s;
+}
+
+@keyframes nav {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
 }
 
 .ballon img {
