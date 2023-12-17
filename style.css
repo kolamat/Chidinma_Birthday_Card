@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dhurjati&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dhurjati&family=Playfair+Display&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Shadows+Into+Light&display=swap");
 
 body {
+  font-family: "Montserrat Alternates", sans-serif;
   background: rgb(224, 214, 14);
   margin: auto;
   padding: 0;
@@ -91,8 +92,8 @@ button:hover {
   }
 
   #multiple {
-    font-family: "Dhurjati", sans-serif;
-    font-size: x-large;
+    /* font-family: "Dhurjati", sans-serif; */
+    font-size: large;
     font-weight: bold;
     color: rgb(255, 0, 170);
   }
