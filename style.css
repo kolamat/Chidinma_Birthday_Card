@@ -12,18 +12,15 @@ body {
 }
 
 h1 {
-  /* font-family: "Pacifico", cursive; */
   margin: 0;
 }
 
 h2 {
-  /* font-family: "Pacifico", cursive; */
   margin-left: 40px;
   font-weight: 900;
 }
 
 #multiple {
-  /* font-family: "Dhurjati", sans-serif; */
   font-size: xx-large;
   color: rgb(255, 0, 170);
   font-weight: bold;
@@ -92,7 +89,6 @@ button:hover {
   }
 
   #multiple {
-    /* font-family: "Dhurjati", sans-serif; */
     font-size: large;
     font-weight: bold;
     color: rgb(255, 0, 170);
