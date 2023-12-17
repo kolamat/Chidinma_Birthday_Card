@@ -22,7 +22,14 @@ body {
   border: none;
   text-align: center;
   margin: 0;
+}
+
+.img1 {
   border-radius: 25px 15px 25px 15px;
+}
+
+.img2 {
+  border-radius: 15px 25px 15px 25px;
 }
 
 h1 {
