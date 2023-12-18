@@ -4,8 +4,7 @@ const typed = new Typed("#multiple", {
     "Happy_Birthday",
     "Long_Life_And_Prosperity",
     "More_Money_In_Your_Account",
-    "More_Cake_To_Burst_And_Eat",
-    "Lastly_Love_You",
+    "Lastly_More_Cake_To_Burst_And_Eat",
   ],
   shuffle: false,
   cursorChar: "&#x2022;",
@@ -48,3 +47,67 @@ function toggle_bdg3() {
   img.src = "chi5.jpg";
   document.getElementById("body").appendChild(img);
 }
+
+var demoContentEl = document.querySelector(".demo");
+var fragment = document.createDocumentFragment();
+var easingNames = [
+  "easeInQuad",
+  "easeInCubic",
+  "easeInQuart",
+  "easeInQuint",
+  "easeInSine",
+  "easeInExpo",
+  "easeInCirc",
+  "easeInBack",
+  "easeOutQuad",
+  "easeOutCubic",
+  "easeOutQuart",
+  "easeOutQuint",
+  "easeOutSine",
+  "easeOutExpo",
+  "easeOutCirc",
+  "easeOutBack",
+  "easeInBounce",
+  "easeInOutQuad",
+  "easeInOutCubic",
+  "easeInOutQuart",
+  "easeInOutQuint",
+  "easeInOutSine",
+  "easeInOutExpo",
+  "easeInOutCirc",
+  "easeInOutBack",
+  "easeInOutBounce",
+  "easeOutBounce",
+  "easeOutInQuad",
+  "easeOutInCubic",
+  "easeOutInQuart",
+  "easeOutInQuint",
+  "easeOutInSine",
+  "easeOutInExpo",
+  "easeOutInCirc",
+  "easeOutInBack",
+  "easeOutInBounce",
+];
+
+function createEasingDemo(easing) {
+  var demoEl = document.createElement("div");
+  demoEl.classList.add("el", "square", "stretched", "easing-" + easing);
+  demo({
+    targets: demoEl,
+    translateY: [50, -50],
+    direction: "alternate",
+    loop: true,
+    delay: 100,
+    endDelay: 100,
+    duration: 1000,
+    easing: easing,
+  });
+  fragment.appendChild(demoEl);
+}
+
+easingNames.forEach(function (easeName) {
+  createEasingDemo(easeName);
+});
+
+demoContentEl.innerHTML = "";
+demoContentEl.appendChild(fragment);
