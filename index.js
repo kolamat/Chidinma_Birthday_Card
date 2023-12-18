@@ -75,7 +75,7 @@ anime({
     duration: 800,
   },
   rotate: {
-    value: 360,
+    value: -360,
     duration: 1800,
     easing: "easeInOutSine",
   },
