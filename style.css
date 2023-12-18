@@ -34,11 +34,13 @@ body {
 
 .img3 {
   border-radius: 30px 30px 15px 15px;
+  height: 100%;
 }
 
 .img_span {
-  background-color: #47b644;
+  background-color: #c2c43d;
   border-radius: 30px 30px 15px 15px;
+  height: 180px;
 }
 
 #multiple {
@@ -134,5 +136,9 @@ button:hover {
   .ballon img {
     height: 110px;
     width: 110px;
+  }
+
+  .img_span {
+    height: 110px;
   }
 }

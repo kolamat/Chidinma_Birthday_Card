@@ -91,7 +91,7 @@ anime({
 anime({
   targets: ".img3",
   translateX: [
-    { value: 250, duration: 1000, delay: 500 },
+    { value: 120, duration: 1000, delay: 500 },
     { value: 0, duration: 1000, delay: 500 },
   ],
   translateY: [
@@ -113,5 +113,5 @@ anime({
     { value: 1, duration: 450 },
   ],
   easing: "easeOutElastic(1, .8)",
-  loop: true,
+  //   loop: true,
 });
