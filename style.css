@@ -36,6 +36,10 @@ body {
   border-radius: 30px 30px 15px 15px;
 }
 
+.img_span {
+  background-color: #47b644;
+}
+
 #multiple {
   font-size: xx-large;
   color: rgb(255, 0, 170);
