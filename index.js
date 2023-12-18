@@ -49,8 +49,8 @@ function toggle_bdg3() {
 }
 
 anime({
-  targets: ".anime",
-  translateX: {
+  targets: ".img1",
+  translate: {
     value: 250,
     duration: 800,
   },
@@ -60,10 +60,30 @@ anime({
     easing: "easeInOutSine",
   },
   scale: {
-    value: 2,
+    value: 0.9,
     duration: 1600,
     delay: 800,
     easing: "easeInOutQuart",
   },
-  delay: 250, // All properties except 'scale' inherit 250ms delay
+  delay: 250,
+});
+
+anime({
+  targets: ".img2",
+  translate: {
+    value: 250,
+    duration: 800,
+  },
+  rotate: {
+    value: 360,
+    duration: 1800,
+    easing: "easeInOutSine",
+  },
+  scale: {
+    value: 0.9,
+    duration: 1600,
+    delay: 800,
+    easing: "easeInOutQuart",
+  },
+  delay: 250,
 });
