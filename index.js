@@ -1,6 +1,6 @@
 const typed = new Typed("#multiple", {
   strings: [
-    "Chidinma My Love",
+    "Chidinma_Meebaby",
     "Happy_Birthday",
     "Long_Life_And_Prosperity",
     "More_Money_In_Your_Account",
