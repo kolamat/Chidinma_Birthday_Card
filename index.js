@@ -30,6 +30,7 @@ function toggle_bdg1() {
   let img = new Image();
   img.src = "chi3.jpg";
   document.getElementById("body").appendChild(img);
+  bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
 
 let image3 = document.getElementById("image1");
@@ -38,6 +39,7 @@ function toggle_bdg2() {
   let img = new Image();
   img.src = "chi4.jpg";
   document.getElementById("body").appendChild(img);
+  bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
 
 let image4 = document.getElementById("image1");
@@ -46,6 +48,7 @@ function toggle_bdg3() {
   let img = new Image();
   img.src = "chi5.jpg";
   document.getElementById("body").appendChild(img);
+  bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
 
 anime({
