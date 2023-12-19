@@ -19,7 +19,7 @@ let bdg = document.getElementById("image");
 
 function toggle_bdg() {
   let img = document.createElement("img");
-  img.src = "Screenshot 2023-12-13 232218.png";
+  //   img.src = "Screenshot 2023-12-13 232218.png";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
@@ -29,6 +29,7 @@ let image2 = document.getElementById("image1");
 function toggle_bdg1() {
   let img = new Image();
   img.src = "chi3.jpg";
+  img.src = "Screenshot 2023-12-13 232218.png";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
