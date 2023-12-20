@@ -118,7 +118,7 @@ anime({
 //     { value: 1, duration: 450 },
 //   ],
 //   easing: "easeOutElastic(1, .8)",
-//   //   loop: true,
+//   loop: true,
 // });
 
 anime({
