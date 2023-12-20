@@ -56,18 +56,15 @@ anime({
   translate: {
     value: 250,
     duration: 800,
-    loop: true,
   },
   rotate: {
     value: 720,
     duration: 1800,
-    loop: true,
     easing: "easeInOutSine",
   },
   scale: {
     value: 0.9,
     duration: 1600,
-    loop: true,
     delay: 800,
     easing: "easeInOutQuart",
   },
@@ -79,18 +76,15 @@ anime({
   translate: {
     value: 250,
     duration: 800,
-    loop: true,
   },
   rotate: {
     value: -720,
     duration: 1800,
-    loop: true,
     easing: "easeInOutSine",
   },
   scale: {
     value: 0.9,
     duration: 1600,
-    loop: true,
     delay: 800,
     easing: "easeInOutQuart",
   },
