@@ -125,7 +125,7 @@ anime({
   targets: ".img3",
   keyframes: [
     { translateY: -40 },
-    { translateX: 250 },
+    { translateX: 80 },
     { translateY: 40 },
     { translateX: 0 },
     { translateY: 0 },
