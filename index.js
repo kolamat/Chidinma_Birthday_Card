@@ -69,6 +69,7 @@ anime({
     easing: "easeInOutQuart",
   },
   delay: 250,
+  loop: 2,
 });
 
 anime({
@@ -89,6 +90,7 @@ anime({
     easing: "easeInOutQuart",
   },
   delay: 250,
+  loop: 2,
 });
 
 // anime({
@@ -130,5 +132,5 @@ anime({
   ],
   duration: 4000,
   easing: "easeOutElastic(1, .8)",
-  loop: true,
+  loop: 2,
 });
