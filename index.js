@@ -104,5 +104,5 @@ anime({
   ],
   duration: 4000,
   easing: "easeOutElastic(1, .8)",
-  loop: 2,
+  loop: 1,
 });
