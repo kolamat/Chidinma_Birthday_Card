@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="27.jpg" />
     <title>Birthday_Card</title>
@@ -22,6 +23,7 @@
         <span id="multiple"> </span>
         <h2>Welcome to the new begining of another 365days journey</h2>
       </div>
+
       <div class="buttons">
         <button title="Birthday_Girl" onclick="toggle_bdg()">Click_Me</button>
         <button title="Birthday_Girl2" onclick="toggle_bdg1()">And_Me</button>
@@ -30,13 +32,25 @@
         <button title="Birthday_Girl2" onclick="toggle_bdg4()">I_Also</button>
         <button title="Birthday_Girl2" onclick="toggle_bdg5()">Also_Me</button>
       </div>
+      <button id="but">Clear_Page</button>
       <div id="body">
         <h2 id="image"></h2>
-        <div data-aos="zoom-out-right"><img src="chi1.png" alt="" /></div>
+        <img
+          src="chi1.png"
+          data-aos="flip-down"
+          data-aos-duration="1500"
+          alt=""
+        />
+        <img src="chi1.png" data-aos="zoom-out-right" alt="" />
+        <img src="chi1.png" data-aos="zoom-out-right" alt="" />
+        <img src="chi1.png" data-aos="zoom-out-right" alt="" />
       </div>
     </div>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="anime.min.js"></script>
     <script src="index.js"></script>
   </body>
