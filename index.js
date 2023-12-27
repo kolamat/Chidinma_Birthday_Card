@@ -19,19 +19,26 @@ let bdg = document.getElementById("image");
 
 function toggle_bdg() {
   let img = document.createElement("img");
-  img.src = "chi3.jpg";
+  img.src = "chi2.jpg";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
 
 function toggle_bdg1() {
   let img = new Image();
-  img.src = "Screenshot 2023-12-13 232218.png";
+  img.src = "chi1.jpg";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
 
 function toggle_bdg2() {
+  let img = new Image();
+  img.src = "chi3.jpg";
+  document.getElementById("body").appendChild(img);
+  bdg.innerHTML = "Look At yourseif Pretty Soul.";
+}
+
+function toggle_bdg3() {
   let img = new Image();
   img.src = "chi4.jpg";
   document.getElementById("body").appendChild(img);
@@ -47,14 +54,7 @@ function toggle_bdg3() {
 
 function toggle_bdg3() {
   let img = new Image();
-  img.src = "chi5.jpg";
-  document.getElementById("body").appendChild(img);
-  bdg.innerHTML = "Look At yourseif Pretty Soul.";
-}
-
-function toggle_bdg3() {
-  let img = new Image();
-  img.src = "chi5.jpg";
+  img.src = "chi6.jpg";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
