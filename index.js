@@ -45,6 +45,20 @@ function toggle_bdg3() {
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
 
+function toggle_bdg3() {
+  let img = new Image();
+  img.src = "chi5.jpg";
+  document.getElementById("body").appendChild(img);
+  bdg.innerHTML = "Look At yourseif Pretty Soul.";
+}
+
+function toggle_bdg3() {
+  let img = new Image();
+  img.src = "chi5.jpg";
+  document.getElementById("body").appendChild(img);
+  bdg.innerHTML = "Look At yourseif Pretty Soul.";
+}
+
 anime({
   targets: ".img1",
   translate: {
