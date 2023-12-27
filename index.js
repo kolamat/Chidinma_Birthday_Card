@@ -59,6 +59,11 @@ function toggle_bdg5() {
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
 
+let main = document.getElementById("body");
+let display = 0;
+
+function clear() {}
+
 anime({
   targets: ".img1",
   translate: {
