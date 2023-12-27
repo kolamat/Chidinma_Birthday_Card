@@ -33,7 +33,7 @@ function toggle_bdg1() {
 
 function toggle_bdg2() {
   let img = new Image();
-  img.src = "chi6.jpg";
+  img.src = "chi4.jpg";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
@@ -47,14 +47,14 @@ function toggle_bdg3() {
 
 function toggle_bdg3() {
   let img = new Image();
-  img.src = "chi4.jpg";
+  img.src = "chi5.jpg";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
 
 function toggle_bdg3() {
   let img = new Image();
-  img.src = "chi7.jpg";
+  img.src = "chi5.jpg";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
