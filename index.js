@@ -33,6 +33,20 @@ function toggle_bdg1() {
 
 function toggle_bdg2() {
   let img = new Image();
+  img.src = "chi6.jpg";
+  document.getElementById("body").appendChild(img);
+  bdg.innerHTML = "Look At yourseif Pretty Soul.";
+}
+
+function toggle_bdg3() {
+  let img = new Image();
+  img.src = "chi5.jpg";
+  document.getElementById("body").appendChild(img);
+  bdg.innerHTML = "Look At yourseif Pretty Soul.";
+}
+
+function toggle_bdg3() {
+  let img = new Image();
   img.src = "chi4.jpg";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
@@ -40,21 +54,7 @@ function toggle_bdg2() {
 
 function toggle_bdg3() {
   let img = new Image();
-  img.src = "chi5.jpg";
-  document.getElementById("body").appendChild(img);
-  bdg.innerHTML = "Look At yourseif Pretty Soul.";
-}
-
-function toggle_bdg3() {
-  let img = new Image();
-  img.src = "chi5.jpg";
-  document.getElementById("body").appendChild(img);
-  bdg.innerHTML = "Look At yourseif Pretty Soul.";
-}
-
-function toggle_bdg3() {
-  let img = new Image();
-  img.src = "chi5.jpg";
+  img.src = "chi7.jpg";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
