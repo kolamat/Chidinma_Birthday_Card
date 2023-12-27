@@ -95,7 +95,13 @@ anime({
 
 anime({
   targets: ".img3",
-  keyframes: [{ translateY: -40 }, { translateX: 50 }, { translateY: 40 }],
+  keyframes: [
+    { translateY: -40 },
+    { translateX: 50 },
+    { translateY: 40 },
+    { translateX: 0 },
+    { translateY: 0 },
+  ],
   duration: 4000,
   easing: "easeOutElastic(1, .8)",
   loop: 1,
