@@ -64,7 +64,7 @@ let display = 0;
 
 function clear() {
   if (display == 1) {
-    div.style.display = "block";
+    div.style.display = "flex";
     display = 0;
   } else {
     div.style.display = "none";
