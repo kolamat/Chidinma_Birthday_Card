@@ -8,13 +8,13 @@ body {
   overflow-x: hidden;
 }
 
-#but {
+/* #but {
   display: flex;
   text-align: center;
   margin: auto;
   margin-bottom: 17px;
   margin-top: 26px;
-}
+} */
 
 .ballon {
   display: flex;
