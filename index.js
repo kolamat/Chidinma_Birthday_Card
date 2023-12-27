@@ -26,7 +26,7 @@ function toggle_bdg() {
 
 function toggle_bdg1() {
   let img = new Image();
-  img.src = "chi1.jpg";
+  img.src = "chi1.png";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
