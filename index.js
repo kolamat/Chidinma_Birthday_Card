@@ -45,14 +45,14 @@ function toggle_bdg3() {
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
 
-function toggle_bdg3() {
+function toggle_bdg4() {
   let img = new Image();
   img.src = "chi5.jpg";
   document.getElementById("body").appendChild(img);
   bdg.innerHTML = "Look At yourseif Pretty Soul.";
 }
 
-function toggle_bdg3() {
+function toggle_bdg5() {
   let img = new Image();
   img.src = "chi6.jpg";
   document.getElementById("body").appendChild(img);
