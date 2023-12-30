@@ -49,6 +49,11 @@ body {
   font-weight: bold;
 }
 
+.rate {
+  background: #3b0c08;
+  border-radius: 15px;
+}
+
 .texts {
   text-align: center;
   padding: 0 40px 0 40px;

@@ -114,3 +114,11 @@ anime({
   easing: "easeOutElastic(1, .8)",
   loop: 1,
 });
+
+anime({
+  targets: ".rate",
+  width: "100%",
+  easing: "easeInOutQuad",
+  direction: "alternate",
+  loop: true,
+});
