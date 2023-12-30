@@ -50,8 +50,12 @@ body {
 }
 
 .rate {
+  display: grid;
+  grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+  grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
   background: #3b0c08;
-  border-radius: 15px;
+  gap: 10px;
+  color: #fff;
 }
 
 .texts {
