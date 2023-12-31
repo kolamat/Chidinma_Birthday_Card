@@ -49,15 +49,6 @@ body {
   font-weight: bold;
 }
 
-.rate {
-  display: grid;
-  grid-template-columns: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
-  grid-template-rows: 14px 14px 14px 14px 14px 14px 14px 14px 14px 14px;
-  background: #3b0c08;
-  gap: 10px;
-  color: #fff;
-}
-
 .texts {
   text-align: center;
   padding: 0 40px 0 40px;
