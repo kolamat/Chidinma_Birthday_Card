@@ -44,9 +44,11 @@ body {
 }
 
 #multiple {
+  display: flex;
   font-size: 50px;
   color: rgb(255, 0, 170);
   font-weight: bold;
+  flex-wrap: wrap
 }
 
 .texts {
