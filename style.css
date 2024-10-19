@@ -48,7 +48,8 @@ body {
   font-size: 50px;
   color: rgb(255, 0, 170);
   font-weight: bold;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  width: 200px;
 }
 
 .texts {
